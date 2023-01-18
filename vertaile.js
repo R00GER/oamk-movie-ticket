@@ -15,6 +15,7 @@ const checkWallet = () => {
   clearPreviousValue("result-header-element");
 
   // kutsutaan funktiota, joka palauttaa objektin, jossa inputteihin syötetyt arvot
+  // funktiota kutsutaan helpers.js tiedostosta
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
   const inputValues = getInputValues();
 
