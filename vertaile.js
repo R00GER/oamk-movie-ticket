@@ -83,13 +83,6 @@ const comparePriceToWallet = () => {
     return containers.compare.appendChild(compareHeadingElement);
   }
 
-  // objekti, johon on tallennettu tulostettavat tekstit
-  const textNodes = {
-    wallet: `Lompakossa on enemmän rahaa, kuin lipun hinta`,
-    price: "Lippu maksaa enemmän, kuin lompakossa on rahaa",
-    equal: "Lompakon rahamäärä ja lipun hinta ovat yhtä suuret",
-  };
-
   // getTextNodeKeyByValues palauttaa keyn (wallet, price, equal)
   const textNode = getTextNodeKeyByValues(inputValues);
   containers.compare.appendChild(compareHeadingElement);
